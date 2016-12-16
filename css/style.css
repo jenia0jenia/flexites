@@ -379,10 +379,10 @@ li {
 }
 
 .fix-menu {
-	position: fixed;
+	position: fixed !important;;
 	z-index: 200;
 	top: 0;
-	display: block;
+	display: block !important;
 }
 
 .footer {

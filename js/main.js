@@ -1,4 +1,3 @@
-
 /** *********** */
 $(window).scroll(function(){
 	var hiddenMenu = $('.hidden-menu'),
@@ -10,7 +9,7 @@ $(window).scroll(function(){
 
 $(document).ready(function() {
 	$('.hidden-menu__dropdown').click(function() {
-		console.log('text')
+		// console.log('text')
         $('.hidden-menu__nav').toggleClass('visible');
     });
 });
